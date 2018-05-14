@@ -1,0 +1,17 @@
+
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !=/favicon.ico
+RewriteCond %{REQUEST_FILENAME} !.css [NC]
+RewriteCond %{REQUEST_FILENAME} !.js [NC]
+RewriteRule ^(.*)$ index.php?page=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} .css [NC]
+RewriteRule ^(.*).css$ getResources.php?type=css
+
+RewriteCond %{REQUEST_FILENAME} .js [NC]
+RewriteRule ^(.*).js$ getResources.php?type=js

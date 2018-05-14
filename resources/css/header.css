@@ -1,0 +1,4 @@
+#app > header{
+    flex: 0 1 40px;
+    padding: 3px 5px;
+}

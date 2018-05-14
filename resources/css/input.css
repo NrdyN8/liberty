@@ -1,0 +1,8 @@
+input.disabled:not([type="password"]){
+    border:none;
+    background-color: white;
+}
+
+.disabled-hidden{
+    display:none !important;
+}

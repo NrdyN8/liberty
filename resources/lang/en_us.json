@@ -1,0 +1,13 @@
+{
+    "welcome": "Welcome to the Liberty User Manager",
+    "login": "Login",
+    "logout": "Logout",
+    "profile": "Profile",
+    "username": "Username",
+    "password": "Password",
+    "passwordConfirm": "Confirm Password",
+    "email": "Email",
+    "emailConfirm": "Confirm Email",
+    "register": "Register",
+    "forgotPassword": "Forgot password"
+}

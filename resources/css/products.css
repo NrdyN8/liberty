@@ -1,0 +1,15 @@
+.product-card{
+    margin: 5px;
+    padding: 5px 0;
+    width: 220px;
+    float: left;
+}
+
+.product-description{
+    height: 160px;
+}
+
+.product-buttons{
+    position: absolute;
+    bottom: 1.25rem;
+}

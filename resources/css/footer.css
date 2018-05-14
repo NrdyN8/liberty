@@ -1,0 +1,7 @@
+#app > footer{
+    flex: 0 1 40px;
+    padding: 15px 15px 0 15px;
+    background-color: #555555;
+    color: #efefef;
+    font-weight: bold;
+}
